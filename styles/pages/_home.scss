@@ -1,0 +1,37 @@
+.home {
+  height: calc(100vh - 4rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .hero {
+    width: 60rem;
+  }
+
+  .hero2 {
+    margin-bottom: 3rem;
+  }
+
+  .crocodile {
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hd-mb {
+    display: none;
+  }
+}
+
+.hd-dstb {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .hd-dstb {
+    display: block;
+  }
+}
